@@ -1,0 +1,32 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    border: 20px solid powderblue;
+    margin: 50px;
+}
+h1{
+    color: rgb(254, 4, 4);
+    font-size: 300%;
+}
+h2{
+    font-size: 250%;
+    color:blue
+}
+p{
+    font-size: 125%
+}
+h3{
+    font-size: 250%;
+    color:yellowgreen
+}
+li{
+    font-size: 125%;
+    color: rgb(183, 19, 134)
+}
+h4{
+    font-size: 250%;
+    color: chocolate
+}
+img{
+    padding: 50px;
+}
