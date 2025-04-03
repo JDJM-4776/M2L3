@@ -1,3 +1,27 @@
+@keyframes color-change{
+    0% {
+        color: blue;
+      }
+    
+      50% {
+        color: green;
+      }
+    
+      100% {
+        color: brown;
+      }
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
@@ -5,8 +29,10 @@ body {
     margin: 50px;
 }
 h1{
-    color: rgb(254, 4, 4);
     font-size: 300%;
+    animation: color-change 3s infinite;
+    
+    
 }
 h2{
     font-size: 250%;
@@ -16,16 +42,18 @@ p{
     font-size: 125%
 }
 h3{
+    animation: blink 2s infinite;
     font-size: 250%;
-    color:yellowgreen
+    color:red
+    
 }
-li{
+li:hover{
     font-size: 125%;
     color: rgb(183, 19, 134)
 }
 h4{
     font-size: 250%;
-    color: chocolate
+    color: yellowgreen
 }
 img{
     padding: 50px;
